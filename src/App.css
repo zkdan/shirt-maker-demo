@@ -1,0 +1,46 @@
+body{
+  background-color: rgba(60, 109, 247, .8);
+  text-align: center;
+  font-size: 62.5%;
+  font-size:1.5rem;
+  overflow: hidden;
+}
+.container{
+  position: relative;
+  width: 80%;
+  margin:0 auto;
+}
+.displayBox{
+  font-size: 2vw;
+  position: absolute;
+  top:30%;
+  left:30vw;
+  right:30vw;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin: 0;
+  color:white;
+}
+#tShirt{
+  max-width: 100%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:13vh;
+  align-items: center;
+}
+
+input{
+  text-align: center;
+  padding:1%;
+  font-size: 2rem;
+  color:plum;
+}
